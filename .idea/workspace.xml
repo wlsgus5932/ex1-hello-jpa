@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="761b5282-2fa0-4f1b-8ad1-50fa2ee0b6a9" name="Changes" comment="commit">
+    <list default="true" id="761b5282-2fa0-4f1b-8ad1-50fa2ee0b6a9" name="Changes" comment="colunm 속성들">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabasic/RoleType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabasic/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabasic/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -46,6 +47,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="jpabasic" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691937587386</updated>
       <workItem from="1691937588402" duration="7261000" />
-      <workItem from="1692061298571" duration="1259000" />
+      <workItem from="1692061298571" duration="2051000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -73,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692019595684</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="colunm 속성들">
+      <option name="closed" value="true" />
+      <created>1692110803405</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692110803405</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="colunm 속성들" />
+    <option name="LAST_COMMIT_MESSAGE" value="colunm 속성들" />
   </component>
 </project>
