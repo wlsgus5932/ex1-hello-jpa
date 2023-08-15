@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="761b5282-2fa0-4f1b-8ad1-50fa2ee0b6a9" name="Changes" comment="colunm 속성들">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabasic/RoleType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabasic/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabasic/JpaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabasic/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabasic/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691937587386</updated>
       <workItem from="1691937588402" duration="7261000" />
-      <workItem from="1692061298571" duration="2051000" />
+      <workItem from="1692061298571" duration="3422000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -87,7 +87,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692110803405</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="colunm 속성들">
+      <option name="closed" value="true" />
+      <created>1692111430423</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692111430423</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
