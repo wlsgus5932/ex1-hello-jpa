@@ -8,6 +8,7 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Random;
 
 public class JpaMain {
     public static void main(String[] args) {
@@ -16,6 +17,11 @@ public class JpaMain {
         EntityTransaction tx = em.getTransaction();
         tx.begin();
         try {
+            Member member = new Member();
+            member.setUsername("A");
+
+            em.persist(member);
+
             tx.commit();
         } catch (Exception e) {
             tx.rollback();
