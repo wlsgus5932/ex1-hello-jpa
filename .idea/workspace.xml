@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="761b5282-2fa0-4f1b-8ad1-50fa2ee0b6a9" name="Changes" comment="jpa 기초">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabasic/Team.java" afterDir="false" />
+    <list default="true" id="761b5282-2fa0-4f1b-8ad1-50fa2ee0b6a9" name="Changes" comment="jpa 연관관계 매핑">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabasic/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabasic/JpaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabasic/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabasic/Member.java" afterDir="false" />
@@ -65,7 +64,7 @@
       <workItem from="1692061298571" duration="4925000" />
       <workItem from="1692116046989" duration="773000" />
       <workItem from="1692126550746" duration="11000" />
-      <workItem from="1692181101869" duration="1892000" />
+      <workItem from="1692181101869" duration="4131000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -115,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692116179185</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="jpa 연관관계 매핑">
+      <option name="closed" value="true" />
+      <created>1692184732491</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692184732491</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +144,7 @@
     <MESSAGE value="commit" />
     <MESSAGE value="colunm 속성들" />
     <MESSAGE value="jpa 기초" />
-    <option name="LAST_COMMIT_MESSAGE" value="jpa 기초" />
+    <MESSAGE value="jpa 연관관계 매핑" />
+    <option name="LAST_COMMIT_MESSAGE" value="jpa 연관관계 매핑" />
   </component>
 </project>
