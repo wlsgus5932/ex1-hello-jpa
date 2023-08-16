@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="761b5282-2fa0-4f1b-8ad1-50fa2ee0b6a9" name="Changes" comment="colunm 속성들">
+    <list default="true" id="761b5282-2fa0-4f1b-8ad1-50fa2ee0b6a9" name="Changes" comment="jpa 기초">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabasic/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabasic/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabasic/JpaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabasic/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabasic/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -63,7 +63,9 @@
       <updated>1691937587386</updated>
       <workItem from="1691937588402" duration="7261000" />
       <workItem from="1692061298571" duration="4925000" />
-      <workItem from="1692116046989" duration="20000" />
+      <workItem from="1692116046989" duration="773000" />
+      <workItem from="1692126550746" duration="11000" />
+      <workItem from="1692181101869" duration="1892000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -105,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692112803026</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="jpa 기초">
+      <option name="closed" value="true" />
+      <created>1692116179185</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692116179185</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +136,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="commit" />
     <MESSAGE value="colunm 속성들" />
-    <option name="LAST_COMMIT_MESSAGE" value="colunm 속성들" />
+    <MESSAGE value="jpa 기초" />
+    <option name="LAST_COMMIT_MESSAGE" value="jpa 기초" />
   </component>
 </project>
