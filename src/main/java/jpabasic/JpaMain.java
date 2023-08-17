@@ -6,9 +6,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Random;
 
 public class JpaMain {
     public static void main(String[] args) {
@@ -17,25 +14,17 @@ public class JpaMain {
         EntityTransaction tx = em.getTransaction();
         tx.begin();
         try {
-            Team team = new Team();
-            team.setName("Team1");
-            em.persist(team);
-
-            Member member = new Member();
-            member.setUsername("m1");
-            member.changeTeam(team);
-            em.persist(member);
+            Movie movie = new Movie();
+            movie.setDirector("aaa");
+            movie.setActor("bbb");
+            movie.setName("바람");
+            movie.setPrice(10000);
+            em.persist(movie);
 
             em.flush();
             em.clear();
 
-            Member findMember = em.find(Member.class, member.getId());
-            List<Member> members = findMember.getTeam().getMembers();
-
-            for (Member m : members) {
-                System.out.println("m = " + m.getUsername());
-            }
-            
+            Movie findMovie = em.find(Movie.class, movie.getId());
             tx.commit();
         } catch (Exception e) {
             e.printStackTrace();
