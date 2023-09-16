@@ -1,11 +1,15 @@
 package jpabasic;
 
 import javassist.bytecode.Descriptor;
+import net.bytebuddy.dynamic.DynamicType;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
 
 public class JpaMain {
     public static void main(String[] args) {
@@ -21,10 +25,17 @@ public class JpaMain {
             movie.setPrice(10000);
             em.persist(movie);
 
+            Member member = new Member();
+            member.setUsername("userA");
+            em.persist(member);
+
+            List<Member> resultList = em.createQuery("select m from Member m", Member.class).getResultList();
+            for (Member member1 : resultList) {
+                System.out.println(member1);
+            }
+
             em.flush();
             em.clear();
-
-            Movie findMovie = em.find(Movie.class, movie.getId());
             tx.commit();
         } catch (Exception e) {
             e.printStackTrace();

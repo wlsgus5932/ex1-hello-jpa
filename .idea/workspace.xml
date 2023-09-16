@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="761b5282-2fa0-4f1b-8ad1-50fa2ee0b6a9" name="Changes" comment="jpa 연관관계 매핑">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabasic/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabasic/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabasic/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabasic/Movie.java" afterDir="false" />
+    <list default="true" id="761b5282-2fa0-4f1b-8ad1-50fa2ee0b6a9" name="Changes" comment="jpa 조인 매핑">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabasic/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabasic/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +24,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2TvxvdcaLdWdyp2aWdQnmDNHN9u" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -69,7 +71,10 @@
       <workItem from="1692116046989" duration="773000" />
       <workItem from="1692126550746" duration="11000" />
       <workItem from="1692181101869" duration="4149000" />
-      <workItem from="1692258424668" duration="4359000" />
+      <workItem from="1692258424668" duration="4392000" />
+      <workItem from="1693907310501" duration="1000" />
+      <workItem from="1694786372552" duration="3135000" />
+      <workItem from="1694851129790" duration="1178000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -135,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692190161764</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="jpa 조인 매핑">
+      <option name="closed" value="true" />
+      <created>1692264340410</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692264340410</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +171,7 @@
     <MESSAGE value="colunm 속성들" />
     <MESSAGE value="jpa 기초" />
     <MESSAGE value="jpa 연관관계 매핑" />
-    <option name="LAST_COMMIT_MESSAGE" value="jpa 연관관계 매핑" />
+    <MESSAGE value="jpa 조인 매핑" />
+    <option name="LAST_COMMIT_MESSAGE" value="jpa 조인 매핑" />
   </component>
 </project>
